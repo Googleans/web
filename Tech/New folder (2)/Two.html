@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotspot </title>
+    <style>
+        .Lion{
+            display: none;
+        }
+        :target{
+            display: block;
+        }
+        .map,.image{
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <h1 style="text-align: center;">The Lion</h1>
+    </div>
+    <div class="map">
+        <center><img src="Lion.jpg" usemap="#image-map"></center>
+        <map name="image-map">
+          <area  href="#Eye" coords="1067,677,61" shape="circle">
+          <area  href="#Eyee" coords="1629,605,100" shape="circle">
+          <area  href="#Nose" coords="811,1131,947,893,1245,880,1318,1151,1150,1276,967,1309,859,1241" shape="poly">
+          <area  href="#Mouth" coords="769,1321,1416,1647" shape="rect">
+        </map>
+   
+    <div id="Eye" class="Lion">
+        <h1>Left Eye</h1>
+        <P>Left Eye of the lion</P>
+    </div>
+    <div id="Eyee" class="Lion">
+        <h1>Right Eye</h1>
+        <P>Right Eye of the lion</P>
+    </div>
+    <div id="Nose" class="Lion">
+        <h1>Nose</h1>
+        <P>Nose of lion</P>
+    </div>
+    <div id="Mouth" class="Lion">
+        <h1>Mouth</h1>
+        <P>Mouth of  lion</P>
+    </div>
+ </div>
+</body>
+</html>

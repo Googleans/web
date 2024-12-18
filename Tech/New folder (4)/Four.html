@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Four.css">
+<title>Register</title>
+</head>
+<body>
+<p style="text-align: center; font-size: 40px;">Register</p>
+<form id="register">
+<div style="margin-bottom: 50px; width: 750px;">
+<label for="Firstname"">First Name : </label>
+<input type="text" id="Firstname" style="height:25px"><br>
+<p id="fname-error" class="error"></p>
+</div>
+<div style="margin-bottom: 50px;">
+<label for="age">Age : </label>
+<input type="number" id="age">
+<p id="age-error" class="error"></p>
+</div>
+<div>
+<label for="" style="margin-right: 20px;">Select Gender : </label>
+<input type="radio" name="Gender" value="Male" id="Male">
+<label for="Male" id="a1" style="margin-left: 0;">Male</label>
+<input type="radio" name="Gender" value="Female" id="Female">
+<label for="Female" id="a2" style="margin-left: 0;">Female</label>
+<p id="gender-error" class="error" style="margin-top: 20px;"></p>
+</div>
+<div style="margin-top: 80px;">
+<label for="department" style="margin-right: 20px; margin-top: 100px;">Choose
+Department</label>
+<select name="department" id="department">
+<option value="CSE">CSE</option>
+<option value="ECE">ECE</option>
+<option value="MECH">MECH</option>
+<option value="EEE">EEE</option>
+</select>
+<p id="dept-error" class="error"></p>
+<div style="margin-top: 50px;">
+<label for="Email">Email : </label>
+<input type="text" name="email" id="email">
+<p id="email-error" class="error"></p>
+</div>
+<div style="margin-top: 50px;">
+    <label for="num">Number : </label>
+    <input type="number" name="number" id="number">
+</div>
